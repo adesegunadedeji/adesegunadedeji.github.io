@@ -19,6 +19,7 @@ function renderNewsArticle (newsArticle){
 
             const $aTag = $(`<a>`).attr("class","readMore");
             $aTag.attr("data-toggle","modal" );
+            $aTag.attr("href","#" );
             $aTag.attr("data-target","#exampleModalLong" );
             $aTag.text("Read More");
             $aTag.attr("id",`${i-1}`)
@@ -37,6 +38,7 @@ function renderNewsArticle (newsArticle){
            
             const $aTag = $(`<a>`).attr("class","readMore");
             $aTag.attr("data-toggle","modal" );
+            $aTag.attr("href","#" );
             $aTag.attr("data-target","#exampleModalLong" );
             $aTag.text("Read More");
             $aTag.attr("id",`${i-1}`)
@@ -54,6 +56,7 @@ function renderNewsArticle (newsArticle){
            
             const $aTag = $(`<a>`).attr("class","readMore");
             $aTag.attr("data-toggle","modal" );
+            $aTag.attr("href","#" );
             $aTag.attr("data-target","#exampleModalLong" );
             $aTag.text("Read More");
             $aTag.attr("id",`${i-1}`)
@@ -71,6 +74,7 @@ function renderNewsArticle (newsArticle){
            
             const $aTag = $(`<a>`).attr("class","readMore");
             $aTag.attr("data-toggle","modal" );
+            $aTag.attr("href","#" );
             $aTag.attr("data-target","#exampleModalLong" );
             $aTag.text("Read More");
             $aTag.attr("id",`${i-1}`)
