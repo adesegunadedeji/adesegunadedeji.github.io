@@ -4,16 +4,34 @@ h5,p{
     font-family: 'Exo 2', sans-serif;
     
 }
+#TitleHeader {
+    font-family: 'Exo 2', sans-serif;
+    font-weight: bold;
+    color: white;
+
+}
 a {
     margin: 0;
     padding: 0;
     min-height: 1px;
     height: 1px;
 }
-.row { 
-    display: flex; 
+
+  .carousel{
+      width: auto;
+      height:70%;
   }
- 
+  
+    .col1,.col3{
+        text-align: right;
+        float: left
+    }
+   
+    .col2,.col4{
+        text-align: left;
+        float: right
+    }
+
   .modal {
     position: fixed;
     top: 50%;

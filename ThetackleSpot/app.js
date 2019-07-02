@@ -43,7 +43,8 @@ function renderNewsArticle (newsArticle){
            
             const $image = $(`<img>`).attr('src',news.urlToImage);
             $image.attr('width',200);
-            $image.attr('id',"image");
+         
+            $image.attr('id',"image1");
             //$image.attr("class","img-thumbnail");
            
 
@@ -65,7 +66,8 @@ function renderNewsArticle (newsArticle){
            
             const $image = $(`<img>`).attr('src',news.urlToImage);
             $image.attr('width',200);
-            $image.attr('id',"image");
+           
+            $image.attr('id',"image2");
            
             const $aTag = $(`<a>`).attr("class","readMore");
             $aTag.attr("data-toggle","modal" );
@@ -84,8 +86,7 @@ function renderNewsArticle (newsArticle){
            
             const $image = $(`<img>`).attr('src',news.urlToImage);
             $image.attr('width',200);
-    
-            $image.attr('id',"image");
+            $image.attr('id',"image3");
            
             const $aTag = $(`<a>`).attr("class","readMore");
             $aTag.attr("data-toggle","modal" );
@@ -104,7 +105,7 @@ function renderNewsArticle (newsArticle){
            
             const $image = $(`<img>`).attr('src',news.urlToImage);
             $image.attr('width',200);
-            $image.attr('id',"image");
+            $image.attr('id',"image4");
           
            
             const $aTag = $(`<a>`).attr("class","readMore");
