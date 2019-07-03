@@ -23,13 +23,13 @@ a {
   }
   
     .col1,.col3{
-        text-align: right;
-        float: left
+        /* text-align: right; */
+        /* float: left */
     }
    
     .col2,.col4{
-        text-align: left;
-        float: right
+        /* text-align: left; */
+        /* float: right */
     }
 
   .modal {
